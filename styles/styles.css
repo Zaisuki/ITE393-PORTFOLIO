@@ -86,15 +86,14 @@ section {
   font-size: 1.2rem;
   color: rgb(0, 0, 0);
   pointer-events: none;
+  background-color: transparent;
 }
 .controls .active-btn {
   transition: all 0.4s ease-in-out;
-
-
   background-color: #000000;
 }
 .controls .active-btn i {
-  color: black;
+  color: rgb(143, 4, 57);
 }
 
 .theme-btn {
@@ -600,12 +599,13 @@ section {
 .contact-content-con .left-contact .contact-icon {
   display: flex;
   margin-top: 2rem;
+  
 
 }
 .contact-content-con .left-contact .contact-icon a {
   display: flex;
   align-items: center;
-  background-color: rgb(255, 255, 255);
+  background-color: transparent;
   cursor: pointer;
   justify-content: center;
   width: 50px;
@@ -618,13 +618,14 @@ section {
   background-color: #000000;
 }
 .contact-content-con .left-contact .contact-icon a:hover i {
-  color: black;
+  color: rgb(163, 0, 76);
 }
 .contact-content-con .left-contact .contact-icon a i {
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.3rem;
+  background-color: transparent;
 }
 .contact-content-con .right-contact {
   flex: 3;
