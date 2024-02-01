@@ -627,11 +627,19 @@ section {
   font-size: 1.3rem;
   background-color: transparent;
 }
+
 .contact-content-con .right-contact {
   flex: 3;
   margin-left: 3rem;
   border: 1px solid #000000;
   border-radius: 30px;
+  width: 400px;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+.contact-content-con .right-contact:hover {
+  background-color: #000000;
 }
 .contact-content-con .right-contact .input-control {
   margin: 1.5rem 0;
