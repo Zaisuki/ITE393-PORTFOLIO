@@ -521,7 +521,8 @@ section {
 }
 .blogs .blog {
   position: relative;
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+
+  box-shadow: 1px 4px 90px rgba(131, 0, 87, 0.32);
   transition: all 0.4s ease-in-out;
   
  
@@ -571,10 +572,20 @@ section {
   padding-bottom: 1rem;
 }
 
+
 .contact-content-con {
   display: flex;
   padding-top: 3.5rem;
 }
+.contact .main-title h4{
+  font-size: 16x;
+  margin-bottom: 0.7rem;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+}
+
 .contact-content-con .left-contact {
   flex: 2;
 }
