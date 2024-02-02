@@ -213,6 +213,8 @@ section {
   grid-gap: 5rem;
   height: 170px;
   width: 700px;
+  position: relative;
+  right: 9%;
 
 
 }
